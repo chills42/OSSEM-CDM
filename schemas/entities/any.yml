@@ -21,11 +21,11 @@ attributes:
   type: ip
   description: Allows searching a single field for all IPs. All IP fields copied/duplicated to a single field as an array.
   sample_value: '``'
-- name: ip_geo.as_org
+- name: bgp_as_org
   type: string
   description: Allows searching a single field for all BGP AS Organization Names. All AS name fields copied/duplicated to a single field as an array.
   sample_value: '``'
-- name: ip_geo.asn
+- name: bgp_asn
   type: integer
   description: Allows searching a single field for all BGP AS Numbers. All AS number fields copied/duplicated to a single field as an array.
   sample_value: '``'
